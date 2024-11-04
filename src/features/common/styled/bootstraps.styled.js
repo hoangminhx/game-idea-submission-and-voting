@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const CustomContainer = styled(Container)`
   height: 80vh;
   min-height: 620px;
-  max-width: 800px;
+  max-width: 1200px;
   overflow: auto;
   background-color: white;
   border-radius: 15px;

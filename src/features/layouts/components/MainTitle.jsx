@@ -13,7 +13,7 @@ const Wrapper = styled.div.attrs({ className: 'd-flex justify-content-center' })
 const MainTitle = () => {
   return (
     <Wrapper>
-      <StyledTitle>{'Game Ideas'}</StyledTitle>
+      <StyledTitle>{'Game submission and vote'}</StyledTitle>
     </Wrapper>
   )
 }

@@ -49,8 +49,8 @@ const IdeaForm = ({ onSubmit }) => {
               />
               <FFFormFeedback name='detail' />
             </FormGroup>
-            <Button color='primary' type='submit' disabled={submitting}>
-              <i class='fa-solid fa-plus'></i>&nbsp;{submitting ? 'Submitting' : 'Submit'}
+            <Button color='primary' type='submit' block disabled={submitting}>
+              <i className='fa-solid fa-plus'></i>&nbsp;{submitting ? 'Submitting' : 'Submit'}
             </Button>
           </Form>)
       }}
