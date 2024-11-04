@@ -4,7 +4,3 @@ export function getCurrentUser() {
     username: 'user01'
   }
 }
-
-export function setCurrentUser(user) {
-
-}
