@@ -107,10 +107,9 @@ const GameIdeasPage = () => {
       </Row>
       <Row>
         <Col>
-          <GameList gameIdeas={gameIdeas} onUpvote={handleUpvote} onDownvote={handleDownvote} />
-          {/* {gameIdeas.length
-            ? <GameList gameIdeas={gameIdeas} />
-            : null} */}
+          {gameIdeas.length
+            ? <GameList gameIdeas={gameIdeas} onUpvote={handleUpvote} onDownvote={handleDownvote} />
+            : null}
         </Col>
       </Row>
     </CustomContainer>
